@@ -59,7 +59,9 @@ a:hover{
 	background-color: #BDC3C7;
 	border: 0;
 	border-radius: 5px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;   
 	padding: 0.5em;
 }
 .btn:hover{
@@ -71,7 +73,9 @@ a:hover{
 
 .author{
 	background-color: #fff;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;   
 	padding: 1em;
 }
 	.author__image{
@@ -90,7 +94,9 @@ a:hover{
 		}
 	.author__profile{
 		background-color: #212121;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;   
 		color: #fff;
 		padding: 1em;
 	}
@@ -105,14 +111,18 @@ a:hover{
 				.gallery{
 				}
 					.gallery__item{
-						box-sizing: border-box;
+						-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+						-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+						box-sizing: border-box;   
 						float: left;
 						padding: 0.2em;
 						padding-top: 0;
 						width: 100%;
 					}
 					.gallery__item--video{
-						box-sizing: border-box;
+						-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+						-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+						box-sizing: border-box;   
 						float: left;
 						padding: 0.2em;
 						padding-top: 0;
@@ -128,6 +138,8 @@ a:hover{
 						}
 		.author__profile--scripts{}
 			.script__show-results{
-				box-sizing:border-box;
+				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+				box-sizing: border-box;   
 				padding-bottom: 1em;
 			}
