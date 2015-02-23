@@ -1,0 +1,34 @@
+@media only screen
+and (min-width : 1224px) {
+	.author__image{
+		margin: 0 auto;
+		width: 25%;
+	}
+	.gallery__item{
+		box-sizing: border-box;
+		float: left;
+		padding: 0.2em;
+		padding-top: 0;
+		width: 33.33333%;
+	}
+	.gallery__item--video{
+		box-sizing: border-box;
+		padding: 0.2em;
+		padding-top: 0;
+		width: 100%;
+	}
+		.gallery__item--video iframe{
+			display: block;
+			height: 315px;
+			margin: 0 auto;
+			max-width: 560px;
+			width: 100%;
+		}
+
+	.gallery__item--link{
+		float: left;
+		display: block;
+		width: 30%;
+		padding: 0 10%;
+	}
+}
