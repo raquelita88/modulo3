@@ -55,6 +55,20 @@ a:hover{
 	text-align: center;
 }
 
+.btn{
+	background-color: #BDC3C7;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+.btn:hover{
+	cursor:pointer;
+}
+.btn-default{
+	color:#000;
+}
+
 .author{
 	background-color: #fff;
 	box-sizing: border-box;
@@ -112,3 +126,8 @@ a:hover{
 							height: 100%;
 							width: 100%;
 						}
+		.author__profile--scripts{}
+			.script__show-results{
+				box-sizing:border-box;
+				padding-bottom: 1em;
+			}
